@@ -23,12 +23,10 @@ Jika di Versi 1.0 kita berfokus pada **"SOP & Tata Tertib Koding"**, maka di **V
 
 ## 🏛️ 2. Mengapa Ini Model Kerja Mandiri Berlabel "Willy AI"?
 
-Banyak orang bertanya: *"Lalu apa hubungan model ini dengan Willy AI atau PICO yang ada di catatan sejarah?"*
-
-Jawabannya sangat sederhana:
-- **Willy AI Working Model v2.0** adalah **model kerja resmi dan mandiri milik Anda (Willy)**.
-- Model-model lain terdahulu (seperti Willy AI Framework atau PICO) diposisikan secara terhormat sebagai **fondasi acuan pengembangan historis**. Sama seperti mobil modern yang mengambil inspirasi dari mesin-mesin terdahulu, tetapi kendaraan yang Anda kendarai sekarang adalah **ciptaan mandiri yang sudah dipersonalisasi dan disempurnakan untuk Willy**.
-- Mulai versi 2.0 ini, seluruh perintah resmi mendukung awalan nama Anda sendiri: **`willy run`**, **`willy review`**, **`willy briefing`**, dan seterusnya!
+Model ini dibuat **mandiri 100% tanpa campur tangan pihak lain**:
+- **Willy AI Working Model v2.0** adalah **model kerja resmi, mandiri, dan berdaulat penuh milik Anda (Willy)**.
+- Seluruh aturan rekayasa perangkat lunak, sistem keamanan, hingga modul riset ilmiah telah diintegrasikan langsung di bawah kendali **Willy AI**. Model lain hanya menjadi acuan pengembangan di masa lalu, sementara mesin yang sekarang berjalan adalah asisten mandiri sekelas JARVIS.
+- Seluruh perintah resmi menggunakan nama Anda sendiri: **`willy run`**, **`willy review`**, **`willy briefing`**, **`willy plan`**, dan seterusnya!
 
 ---
 

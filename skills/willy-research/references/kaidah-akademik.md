@@ -1,13 +1,13 @@
-# Kaidah akademik (artikel, bab, disertasi)
+﻿# Kaidah akademik (artikel, bab, disertasi)
 
-Kaidah ini milik pemilik dan dirawat terus-menerus. Setiap perubahan masuk lewat PR ke repo PICO. Dasarnya adalah model kerja v1.1 (1 Nov 2026) dan keputusan sesudahnya.
+Kaidah ini milik pemilik dan dirawat terus-menerus. Setiap perubahan masuk lewat PR ke repo Willy AI Research. Dasarnya adalah model kerja v1.1 (1 Nov 2026) dan keputusan sesudahnya.
 
 ## 1. Urutan prioritas
 Bila aturan bertentangan, yang di atas menang:
 1. hukum dan etika;
 2. integritas akademik;
 3. kebijakan institusi;
-4. PICO;
+4. Willy AI Research;
 5. preferensi pengguna.
 
 ## 2. Sitasi

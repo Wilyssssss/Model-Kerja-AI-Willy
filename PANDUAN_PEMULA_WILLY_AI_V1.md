@@ -53,12 +53,11 @@ File-file inilah yang membuat AI di laptop Anda pintar secara permanen di semua 
 #### 1. Folder `rules/` (Aturan yang Selalu Diingat AI)
 - **`willy-global.md`**: Otak konstitusi utama. Memuat aturan keamanan OWASP, larangan kode malas (*Anti-Slop*), dan aturan Header/Footer identitas Willy AI.
 - **`global-compliance-checker.md`**: Satpam otomatis. Setiap kali Anda membuka folder proyek baru, file ini langsung memeriksa: *"Apakah proyek ini sudah punya AGENTS.md? Kalau belum, tawarkan setup otomatis!"*
-- **`pico.md`**: Jembatan diplomatik. Kalau Anda memakai AI Claude untuk riset dan Antigravity untuk koding, file ini mengatur cara keduanya saling kirim surat kajian.
 
 #### 2. Folder `skills/` (Jurus Sakti Tambahan yang Dipanggil Saat Butuh)
 - **`willy-shortcuts/`**: Kamus pintasan. Menerjemahkan kata pendek seperti `Willy AI run` menjadi tindakan teknis puluhan langkah.
 - **`willy-review/`**: Senior Code Reviewer pribadi Anda. AI akan memeriksa perbedaan kode (*git diff*), mencari celah keamanan, dan memberi nilai skor kelayakan 0–100.
-- **`pico/references/`**: Gudang ilmu rujukan (standar penulisan ilmiah EYD V, sitasi DOI/Scopus, dan panduan audit pihak ketiga).
+- **`willy-research/`**: Gudang ilmu rujukan riset mandiri (standar penulisan ilmiah EYD V, sitasi DOI/Scopus terverifikasi, dan panduan audit pihak ketiga).
 
 ---
 

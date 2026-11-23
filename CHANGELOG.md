@@ -14,7 +14,8 @@ Semua pembaruan terstruktur dan catatan rilis resmi untuk **Willy AI Working Mod
 - **Medical Check-up Proyek (`willy health`)**: Diagnosis menyeluruh sintaks CLI, keamanan Zero-Leakage, dan kebersihan file direktori.
 - **Pintasan Perintah Otonom Mandiri**: Seluruh perintah resmi kini beroperasi di bawah awalan nama mandiri (`willy run`, `willy fix`, `willy test`, `willy pack`, `willy sync`, dll.).
 
-### 🛡️ Tata Kelola & Keamanan
+### 🛡️ Tata Kelola, Kedaulatan & Keamanan
+- **Kedaulatan Penuh Mandiri**: Mengeliminasi seluruh aturan tamu eksternal (PICO); seluruh kapabilitas riset ilmiah, telaah pustaka, sitasi DOI/Scopus, dan kajian komputasional kini resmi beroperasi 100% mandiri di bawah modul `willy-research`.
 - Penegakan disiplin *Anti-Slop* mutlak pada penulisan kode dan antarmuka responsif seluler ($\ge 48\times 48\text{px}$).
 - Perlindungan *Anti-Regression* dan *Smallest Complete Change*.
 - Pengesahan lisensi pemakaian bebas dengan klausul pelepasan tanggung jawab hukum (*Disclaimer of Liability*).

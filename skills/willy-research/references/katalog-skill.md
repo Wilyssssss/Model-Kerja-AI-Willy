@@ -1,8 +1,8 @@
-# Katalog skill pihak ketiga yang sudah diaudit
+﻿# Katalog skill pihak ketiga yang sudah diaudit
 
 Cek katalog ini sebelum mengaudit. Audit ulang hanya bila repo berganti versi besar, atau bila ada masalah baru di log yang mungkin dijawabnya. Prosedurnya ada di `audit-skill.md`.
 
-Keputusan: **adopsi** (dipasang), **adaptasi** (gagasan atau teks diambil ke PICO dengan atribusi), **pakai yang terpasang**, **tolak**, **tunda** (butuh data).
+Keputusan: **adopsi** (dipasang), **adaptasi** (gagasan atau teks diambil ke Willy AI Research dengan atribusi), **pakai yang terpasang**, **tolak**, **tunda** (butuh data).
 
 | Kandidat | Sumber | Audit | Keputusan | Alasan |
 | --- | --- | --- | --- | --- |

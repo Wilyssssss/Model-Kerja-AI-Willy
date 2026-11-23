@@ -1,7 +1,7 @@
-# PAKET KAJIAN <nomor> — <topik>
+﻿# PAKET KAJIAN <nomor> — <topik>
 
 Untuk: <ChatGPT / Gemini / DeepSeek>
-Dari: proyek <nama> (dikerjakan oleh <agen>), PICO <versi>, tanggal <tanggal>
+Dari: proyek <nama> (dikerjakan oleh <agen>), Willy AI Research <versi>, tanggal <tanggal>
 
 ## Peranmu
 Kamu adalah pengkaji kedua. Jangan menulis ulang hasil kerja di bawah ini. Tugasmu menemukan kesalahan, celah, dan bagian yang perlu diperkuat.

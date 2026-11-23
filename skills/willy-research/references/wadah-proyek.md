@@ -1,9 +1,9 @@
-# Wadah proyek (repo dan folder)
+﻿# Wadah proyek (repo dan folder)
 
 ## Proyek baru
 Bila pengguna menulis "Proyek baru: <nama>, jenis <coding/riset/disertasi/lainnya>, tujuan <satu kalimat>":
 
-1. **Instruksi proyek.** Tulis teks Instructions: 1–3 kalimat tujuan, ditambah "Ikuti skill pico." dan "Wadah: <repo/folder/tidak>".
+1. **Instruksi proyek.** Tulis teks Instructions: 1–3 kalimat tujuan, ditambah "Ikuti skill willy-research." dan "Wadah: <repo/folder/tidak>".
 2. **Pilih wadah sendiri** (inti bagian 4), tanpa bertanya.
 3. **Catat wadah** di teks Instructions Project (`Wadah: ...`). Izin merge tidak perlu ditulis per proyek bila sudah ada di preferensi pengguna; agen tidak menulisnya sendiri.
 4. **Jalankan sendiri:**
@@ -14,8 +14,8 @@ Bila pengguna menulis "Proyek baru: <nama>, jenis <coding/riset/disertasi/lainny
 
 ## Isi awal repo
 - `README.md`: tujuan proyek dan cara menjalankan.
-- `CLAUDE.md`: "Ikuti skill pico." Claude memuat aturan lengkap dari skill akun.
-- `AGENTS.md`: salinan aturan tamu dari `dist/antigravity/AGENTS.md` (atau `dist/chatgpt/AGENTS.md` untuk Codex). Ini hanya diperlukan bila proyek dikerjakan juga di Antigravity atau Codex dan aturan global belum dipasang. Rujukan satu baris tidak cukup, karena agen itu tidak bisa membaca repo PICO yang privat.
+- `CLAUDE.md`: "Ikuti skill willy-research." Claude memuat aturan lengkap dari skill akun.
+- `AGENTS.md`: salinan aturan tamu dari `dist/antigravity/AGENTS.md` (atau `dist/chatgpt/AGENTS.md` untuk Codex). Ini hanya diperlukan bila proyek dikerjakan juga di Antigravity atau Codex dan aturan global belum dipasang. Rujukan satu baris tidak cukup, karena agen itu tidak bisa membaca repo Willy AI Research yang privat.
 - `.gitignore`: minimal `.env`, `*.key`, `vendor/`, `node_modules/`, `uploads/`, `dist/`.
 - **Folder sesuai jenis proyek:**
   - coding: `src/` (atau struktur bawaan framework) dan `tests/`;
@@ -24,4 +24,4 @@ Bila pengguna menulis "Proyek baru: <nama>, jenis <coding/riset/disertasi/lainny
 ## Akses kolaborator
 - **Drive:** satu folder per proyek, dengan akses per orang (Viewer, Commenter, atau Editor).
 - **GitHub:** satu repo privat per proyek. Kolaborator mendapat Read, Triage, atau Write, dan perubahan masuk lewat PR.
-- **Repo PICO:** hanya pemilik yang boleh menulis.
+- **Repo Willy AI Research:** hanya pemilik yang boleh menulis.

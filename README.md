@@ -31,9 +31,9 @@ Framework ini menyelesaikan 4 masalah kronis AI bawaan:
 
 ## ⚡ Pembaruan Utama Versi 2.0 (23 November 2026):
 
-1. **Identitas Mandiri Penuh**:
-   - Beroperasi resmi di bawah identitas mandiri **Willy AI**.
-   - Model-model terdahulu (seperti Willy AI Framework, PICO v4.2, dan PIOM-SDCM) diposisikan secara terhormat sebagai **fondasi acuan pengembangan historis**, sementara model kerja aktif 100% independen di bawah nama **Willy**.
+1. **Identitas Mandiri & Kedaulatan Penuh**:
+   - Beroperasi resmi 100% di bawah kedaulatan identitas mandiri **Willy AI (JARVIS Edition)** tanpa ketergantungan pada model atau aturan tamu pihak ketiga.
+   - Seluruh modul riset dan rekayasa dikembangkan mandiri di bawah nama **Willy**.
 2. **Mode Asisten Eksekutif JARVIS (`willy-jarvis`)**:
    - Persona komunikatif yang taktis, sopan, proaktif, dan lugas (*executive brevity*).
    - Fitur **Executive Briefing** (`willy briefing` / `willy jarvis`): Langsung merangkum kesehatan Git, fokus misi aktif, radar risiko keamanan, dan 2 opsi langkah berikutnya.
@@ -76,13 +76,12 @@ Willy AI Working Model/
 ├── PANDUAN_PEMULA_WILLY_AI_V2.md      # Kitab panduan lengkap ramah pemula (Bahasa Manusia)
 ├── task.md                            # Papan tugas aktif & antrian pengerjaan
 ├── rules/                             # Konstitusi AI global (always_on)
-│   ├── willy-global.md                 # Konstitusi inti Willy AI v2.0
-│   └── pico.md                        # Aturan jembatan kolaborasi tamu
+│   └── willy-global.md                # Konstitusi inti Willy AI v2.0
 ├── skills/                            # Kemampuan on-demand
 │   ├── willy-jarvis/SKILL.md          # Mode Asisten Eksekutif Cerdas (JARVIS Engine)
-│   ├── willy-shortcuts/SKILL.md        # Engine pintasan perintah willy / Willy AI
-│   ├── willy-review/SKILL.md           # Senior Code Reviewer otomatis (0-100 poin)
-│   └── pico/                          # Standar penulisan ilmiah & format riset akademik
+│   ├── willy-shortcuts/SKILL.md       # Engine pintasan perintah willy
+│   ├── willy-review/SKILL.md          # Senior Code Reviewer otomatis (0-100 poin)
+│   └── willy-research/                # Standar riset mandiri & format kajian akademik
 ├── template/                          # Template perancah instan untuk proyek baru
 │   ├── .agents/AGENTS.md              # Aturan lokal proyek baru
 │   ├── working.md                     # Memori state anti-pikun
@@ -94,11 +93,11 @@ Willy AI Working Model/
 ---
 
 ## 🏛️ Fondasi & Warisan Arsitektur (Heritage)
-Willy AI Working Model v2.0 dibangun dengan mengasimilasi dan menyempurnakan prinsip-prinsip terbaik dari berbagai disiplin engineering:
-- **Willy AI Framework & PIOM-SDCM v0.9**: Fondasi pemisahan otorisasi *GATE_CHECK* vs *OWNER GO* dan arsitektur rilis bersih.
-- **PICO v4.2 Protocol**: Protokol diplomasi dan pertukaran paket kajian ilmiah lintas-model AI (Claude, Antigravity, ChatGPT).
-- **Superpowers (obra) & Karpathy Principles**: Disiplin gerbang verifikasi berbasis bukti nyata dan perubahan terkecil (*Smallest Complete Change*).
-- **Unslop Engineering**: Standar penulisan kode tuntas tanpa komentar malas dan antarmuka bersih responsif.
+Willy AI Working Model v2.0 dibangun secara mandiri dengan mengadopsi standar arsitektur kelas atas:
+- **Autonomous Goal-Pursuing & Clean Release**: Fondasi pemisahan otorisasi *GATE_CHECK* vs *OWNER GO* dan otomasi pengemasan rilis live bersih.
+- **Sovereign Research Protocol**: Protokol telaah dan kajian ilmiah mandiri berintegritas tinggi dengan validasi sitasi DOI terverifikasi.
+- **Evidence Verification Gate**: Disiplin gerbang verifikasi berbasis bukti nyata dan perubahan terkecil (*Smallest Complete Change*).
+- **Anti-Slop Engineering**: Standar penulisan kode tuntas tanpa komentar malas dan antarmuka bersih responsif.
 
 ---
 *Dikelola dan dikembangkan secara resmi oleh **Willy** — Repositori Resmi: [https://github.com/Wilyssssss/Model-Kerja-AI-Willy](https://github.com/Wilyssssss/Model-Kerja-AI-Willy)*
