@@ -1,0 +1,73 @@
+﻿name: Willy AI Framework CI Pipeline
+
+on:
+  push:
+    branches: [staging, main]
+  pull_request:
+    branches: [staging, main]
+
+permissions:
+  contents: read
+
+jobs:
+  syntax-validation:
+    name: PHP Syntax Check (Fail-Closed)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v6
+
+      - name: Setup PHP Environment
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Validate All PHP Files Syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'Validating PHP syntax (including paths with spaces)'
+          find . -type f -name '*.php' -not -path './vendor/*' -print0 |
+            xargs -0 -r -n 1 php -l
+
+  zero-leakage-check:
+    name: Zero-Leakage & Secret Scanning
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Run Gitleaks Secret Scanner
+        uses: gitleaks/gitleaks-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_ENABLE_COMMENTS: 'false'
+
+      - name: Verify No Tracked Sensitive Filenames
+        shell: bash
+        run: |
+          set -euo pipefail
+          filelist="$(mktemp)"
+          trap 'rm -f "$filelist"' EXIT
+          git ls-files -z > "$filelist"
+          found=0
+          while IFS= read -r -d '' path; do
+            filename="${path##*/}"
+            case "$filename" in
+              .env|.env.*|credentials.json|id_rsa*|*.key|*.pem)
+                case "$filename" in
+                  .env.example|.env.sample|.env.template|.env.dist)
+                    continue
+                    ;;
+                esac
+                echo "::error::Tracked sensitive filename: $path"
+                found=1
+                ;;
+            esac
+          done < "$filelist"
+          if ((found)); then
+            exit 1
+          fi
+          echo 'No tracked sensitive filenames found'
